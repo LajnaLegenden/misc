@@ -1,0 +1,114 @@
+{
+    "world": {
+        "225,70,221": {
+            "name": "minecraft:gold_block",
+            "state": [],
+            "tags": {
+                "forge:storage_blocks": true,
+                "forge:storage_blocks/gold": true,
+                "minecraft:beacon_base_blocks": true,
+                "minecraft:guarded_by_piglins": true
+            },
+            "blockData": {
+                "color": "d4b4c9"
+            }
+        },
+        "225,71,220": {
+            "name": "computercraft:disk_drive",
+            "state": {
+                "facing": "south",
+                "state": "full"
+            },
+            "tags": [],
+            "blockData": {
+                "color": "581c73"
+            }
+        },
+        "225,70,222": {
+            "name": "minecraft:grass_block",
+            "state": {
+                "snowy": false
+            },
+            "tags": {
+                "forge:dirt": true,
+                "minecraft:bamboo_plantable_on": true,
+                "minecraft:enderman_holdable": true,
+                "minecraft:valid_spawn": true
+            },
+            "blockData": {
+                "color": "89a23b"
+            }
+        },
+        "226,70,221": {
+            "name": "minecraft:grass_block",
+            "state": {
+                "snowy": false
+            },
+            "tags": {
+                "forge:dirt": true,
+                "minecraft:bamboo_plantable_on": true,
+                "minecraft:enderman_holdable": true,
+                "minecraft:valid_spawn": true
+            },
+            "blockData": {
+                "color": "89a23b"
+            }
+        },
+        "226,71,220": {
+            "name": "minecraft:dark_oak_log",
+            "state": {
+                "axis": "y"
+            },
+            "tags": {
+                "minecraft:dark_oak_logs": true,
+                "minecraft:logs": true,
+                "minecraft:logs_that_burn": true
+            },
+            "blockData": {
+                "color": "46e7d2"
+            }
+        },
+        "226,72,220": {
+            "name": "minecraft:dark_oak_log",
+            "state": {
+                "axis": "y"
+            },
+            "tags": {
+                "minecraft:dark_oak_logs": true,
+                "minecraft:logs": true,
+                "minecraft:logs_that_burn": true
+            },
+            "blockData": {
+                "color": "46e7d2"
+            }
+        },
+        "225,72,220": {
+            "name": "computercraft:computer_advanced",
+            "state": {
+                "facing": "south",
+                "state": "blinking"
+            },
+            "tags": [],
+            "blockData": {
+                "color": "9a7f20"
+            }
+        }
+    },
+    "blockData": {
+        "minecraft:gold_block": {
+            "color": "d4b4c9"
+        },
+        "computercraft:disk_drive": {
+            "color": "581c73"
+        },
+        "minecraft:grass_block": {
+            "color": "89a23b"
+        },
+        "minecraft:dark_oak_log": {
+            "color": "46e7d2"
+        },
+        "computercraft:computer_advanced": {
+            "color": "9a7f20"
+        }
+    }
+}

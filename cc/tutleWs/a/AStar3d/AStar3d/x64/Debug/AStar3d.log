@@ -1,0 +1,4 @@
+﻿  AStar3d.cpp
+C:\Code\cc\tutleWs\a\AStar3d\AStar3d\AStar3d.cpp(148,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Code\cc\tutleWs\a\AStar3d\AStar3d\AStar3d.cpp(152,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  AStar3d.vcxproj -> C:\Code\cc\tutleWs\a\AStar3d\x64\Debug\AStar3d.exe

@@ -1,0 +1,48 @@
+<div id="app">
+    <div class="top">
+        <div class="selectedTurtle">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    %%selectedTurtle%%
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li v-for="t in turtles" :key="t.id" class="dropdown-item" v-on:click="onSelectedTurtleChange(t)">
+                        %% t.id %%
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div v-if="selectedTurtle != -1">
+            <form v-on:submit="runMethodFromText()">
+                <input type="text" name="" id="method">
+                <button @click.prevent="runMethodFromText()">RUN</button>
+            </form>
+        </div>
+         <div v-if="selectedTurtle != -1">
+           <button v-on:click="test()">Pathfind</button>
+        </div>
+        <div v-if="selectedTurtle != -1">
+            <table>
+                <tr>
+                    <td>X</td>
+                    <td>%%turtles[selectedTurtle].worldX%%</td>
+                </tr>
+                <tr>
+                    <td>Y</td>
+                    <td>%%turtles[selectedTurtle].worldY%%</td>
+                </tr>
+                <tr>
+                    <td>Z</td>
+                    <td>%%turtles[selectedTurtle].worldZ%%</td>
+                </tr>
+                <tr>
+                    <td>Facing</td>
+                    <td>%%turtles[selectedTurtle].facing%%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>
+</div>

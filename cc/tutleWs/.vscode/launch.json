@@ -1,0 +1,53 @@
+/* {
+  "version": "2.0.0",
+  "configurations": [
+    {
+      "name": "g++ - Build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": ["{\"225\":{\"70\":{\"221\":{\"jsonString\":{\"name\":\"minecraft:gold_block\",\"state\":[],\"tags\":{\"forge:storage_blocks\":true,\"forge:storage_blocks/gold\":true,\"minecraft:beacon_base_blocks\":true,\"minecraft:guarded_by_piglins\":true},\"blockData\":{\"color\":\"d4b4c9\"}},\"cords\":{\"x\":225,\"y\":70,\"z\":221},\"unknown\":false,\"x\":225,\"y\":70,\"z\":221,\"modInfo\":\"minecraft\",\"block\":\"gold_block\"},\"222\":{\"jsonString\":{\"name\":\"minecraft:grass_block\",\"state\":{\"snowy\":false},\"tags\":{\"forge:dirt\":true,\"minecraft:bamboo_plantable_on\":true,\"minecraft:enderman_holdable\":true,\"minecraft:valid_spawn\":true},\"blockData\":{\"color\":\"89a23b\"}},\"cords\":{\"x\":225,\"y\":70,\"z\":222},\"unknown\":false,\"x\":225,\"y\":70,\"z\":222,\"modInfo\":\"minecraft\",\"block\":\"grass_block\"}},\"71\":{\"220\":{\"jsonString\":{\"name\":\"computercraft:disk_drive\",\"state\":{\"facing\":\"south\",\"state\":\"full\"},\"tags\":[],\"blockData\":{\"color\":\"581c73\"}},\"cords\":{\"x\":225,\"y\":71,\"z\":220},\"unknown\":false,\"x\":225,\"y\":71,\"z\":220,\"modInfo\":\"computercraft\",\"block\":\"disk_drive\"}},\"72\":{\"220\":{\"jsonString\":{\"name\":\"computercraft:computer_advanced\",\"state\":{\"facing\":\"south\",\"state\":\"blinking\"},\"tags\":[],\"blockData\":{\"color\":\"9a7f20\"}},\"cords\":{\"x\":225,\"y\":72,\"z\":220},\"unknown\":false,\"x\":225,\"y\":72,\"z\":220,\"modInfo\":\"computercraft\",\"block\":\"computer_advanced\"}}},\"226\":{\"70\":{\"221\":{\"jsonString\":{\"name\":\"minecraft:grass_block\",\"state\":{\"snowy\":false},\"tags\":{\"forge:dirt\":true,\"minecraft:bamboo_plantable_on\":true,\"minecraft:enderman_holdable\":true,\"minecraft:valid_spawn\":true},\"blockData\":{\"color\":\"89a23b\"}},\"cords\":{\"x\":226,\"y\":70,\"z\":221},\"unknown\":false,\"x\":226,\"y\":70,\"z\":221,\"modInfo\":\"minecraft\",\"block\":\"grass_block\"}},\"71\":{\"220\":{\"jsonString\":{\"name\":\"minecraft:dark_oak_log\",\"state\":{\"axis\":\"y\"},\"tags\":{\"minecraft:dark_oak_logs\":true,\"minecraft:logs\":true,\"minecraft:logs_that_burn\":true},\"blockData\":{\"color\":\"46e7d2\"}},\"cords\":{\"x\":226,\"y\":71,\"z\":220},\"unknown\":false,\"x\":226,\"y\":71,\"z\":220,\"modInfo\":\"minecraft\",\"block\":\"dark_oak_log\"}},\"72\":{\"220\":{\"jsonString\":{\"name\":\"minecraft:dark_oak_log\",\"state\":{\"axis\":\"y\"},\"tags\":{\"minecraft:dark_oak_logs\":true,\"minecraft:logs\":true,\"minecraft:logs_that_burn\":true},\"blockData\":{\"color\":\"46e7d2\"}},\"cords\":{\"x\":226,\"y\":72,\"z\":220},\"unknown\":false,\"x\":226,\"y\":72,\"z\":220,\"modInfo\":\"minecraft\",\"block\":\"dark_oak_log\"}}}}'"],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: g++ build active file",
+      "miDebuggerPath": "/usr/bin/gdb"
+    }
+  ]
+}
+ */
+ {
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "g++ build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "g++ build active file",
+      "miDebuggerPath": "/usr/bin/gdb"
+    }
+  ]
+}
